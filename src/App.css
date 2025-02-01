@@ -114,47 +114,7 @@ a {
     font-size: 55px;
 
 }
-.home-info h2{
-    display: inline-block;
-    font-size: 33px;
-    margin-top: -10px;
-}
-.home-info h2 span {
-  position: relative;
-  display: inline-block;
-  color: transparent;
-  -webkit-text-stroke: .7px rgb(1, 10, 7) ;
-  animation: display-text 9s linear infinite ;
-  animation-delay: calc(-3s * var(--i));
-} 
 
-@keyframes display-text {
-  33%,
-  100% {
-    display: none; /* Visible during its sequence */
-  }
-}
-.home-info h2 span::before{
-  content: attr(data-text);
-  position: absolute;
-  width: 0;
-  border-right:1px solid rgb(8, 14, 12) ;
-  color:rgb(0, 1, 1);
-  white-space: nowrap;
-  overflow: hidden;
-  animation: fill-text 3S linear infinite;
-
-}
-@keyframes fill-text{
-  10%,
-  100% {
-    width: 0;
-  }
-  70%,
-  90% {
-    width: 100%;
-  }
-}
 .home-info p{
     font-size: 16px;
     margin: 10px 0 25px; 
