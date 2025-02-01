@@ -19,8 +19,7 @@ const Home = () => {
           <div className="sci">
             <a href="https://github.com/ss8-said"><i className="bx bxl-github"></i></a>
             <a href="https://www.linkedin.com/in/said-meziani-8282a6bb/"><i className="bx bxl-linkedin-square"></i></a>
-            <a href="#"><i className="bx bxl-facebook-square"></i></a>
-            <a href="#"><i className="bx bxl-instagram-alt"></i></a>
+            
           </div>
         </div>
       </div>
