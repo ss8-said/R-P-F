@@ -85,7 +85,7 @@ const Chatbot = () => {
 
       <div className={`chatbot ${visible ? "show" : "hide"}`} ref={chatbotRef}>
         <header>
-          <h2> CMC Bot</h2>
+          <h2> Said's Bot</h2>
         </header>
         <ul className="conversation">
           {messages.map((msg, index) => (
